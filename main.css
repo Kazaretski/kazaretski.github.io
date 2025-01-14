@@ -4,6 +4,21 @@ body {
   font-family: sans-serif;
   margin: 4rem;
 }
+h1, h2 {
+  font-weight: bold;
 h1 {
   font-size: 30px;
+}
+h2 {
+  font-size: 20px;
+}
+h2:not(h2:last-of-type) {
+  margin-top: 2rem;
+}
+a {
+  color: #008CFF;
+  transition: color 0.3s;
+}
+a:hover {
+  color: white;
 }
